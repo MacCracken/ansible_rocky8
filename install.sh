@@ -1,4 +1,4 @@
-dnf update
-dnf install epel-release
-dnf install ansible
+dnf update -y
+dnf install -y epel-release
+dnf install -y ansible
 ansible --version
